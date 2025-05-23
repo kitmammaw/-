@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>1000</width><height>700</height></rect>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnBuildTree">
+    <property name="geometry"><rect><x>20</x><y>20</y><width>120</width><height>30</height></rect></property>
+    <property name="text"><string>Построить дерево</string></property>
+   </widget>
+   <widget class="QPushButton" name="btnVisualize">
+    <property name="geometry"><rect><x>150</x><y>20</y><width>120</width><height>30</height></rect></property>
+    <property name="text"><string>Визуализировать</string></property>
+   </widget>
+   <widget class="QPushButton" name="btnInsert">
+    <property name="geometry"><rect><x>280</x><y>20</y><width>80</width><height>30</height></rect></property>
+    <property name="text"><string>Вставить</string></property>
+   </widget>
+   <widget class="QPushButton" name="btnDelete">
+    <property name="geometry"><rect><x>370</x><y>20</y><width>80</width><height>30</height></rect></property>
+    <property name="text"><string>Удалить</string></property>
+   </widget>
+   <widget class="QPushButton" name="btnSearch">
+    <property name="geometry"><rect><x>460</x><y>20</y><width>80</width><height>30</height></rect></property>
+    <property name="text"><string>Поиск</string></property>
+   </widget>
+   <widget class="QPushButton" name="btnHeight">
+    <property name="geometry"><rect><x>550</x><y>20</y><width>80</width><height>30</height></rect></property>
+    <property name="text"><string>Высота</string></property>
+   </widget>
+   <widget class="QPushButton" name="btnPreorder">
+    <property name="geometry"><rect><x>640</x><y>20</y><width>100</width><height>30</height></rect></property>
+    <property name="text"><string>Прямой обход</string></property>
+   </widget>
+   <widget class="QPushButton" name="btnInorder">
+    <property name="geometry"><rect><x>750</x><y>20</y><width>100</width><height>30</height></rect></property>
+    <property name="text"><string>Симм. обход</string></property>
+   </widget>
+   <widget class="QPushButton" name="btnPostorder">
+    <property name="geometry"><rect><x>860</x><y>20</y><width>100</width><height>30</height></rect></property>
+    <property name="text"><string>Обратный обход</string></property>
+   </widget>
+   <widget class="QPushButton" name="btnBalance">
+    <property name="geometry"><rect><x>20</x><y>60</y><width>120</width><height>30</height></rect></property>
+    <property name="text"><string>Балансировка</string></property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditChar">
+    <property name="geometry"><rect><x>160</x><y>60</y><width>60</width><height>30</height></rect></property>
+   </widget>
+   <widget class="QTextEdit" name="textEditOutput">
+    <property name="geometry"><rect><x>240</x><y>60</y><width>720</width><height>50</height></rect></property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry"><rect><x>20</x><y>130</y><width>960</width><height>520</height></rect></property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
