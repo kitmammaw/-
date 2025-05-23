@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Задача коммивояжера</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="visible">
+         <bool>false</bool>
+        </property>
+        <property name="title">
+         <string>Города</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QListWidget" name="citiesList">
+           <property name="styleSheet">
+            <string notr="true">font: 12pt;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string>Матрица расстояний</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QTableWidget" name="matrixTable">
+           <property name="styleSheet">
+            <string notr="true">font: 12pt;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="title">
+       <string>Граф</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QGraphicsView" name="graphicsView">
+         <property name="styleSheet">
+          <string notr="true">background-color: white;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="solveButton">
+        <property name="styleSheet">
+         <string notr="true">font: 12pt;</string>
+        </property>
+        <property name="text">
+         <string>Решить</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="stepButton">
+        <property name="styleSheet">
+         <string notr="true">font: 12pt;</string>
+        </property>
+        <property name="text">
+         <string>Шаг</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="resetButton">
+        <property name="styleSheet">
+         <string notr="true">font: 12pt;</string>
+        </property>
+        <property name="text">
+         <string>Сброс</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="loadMatrixButton">
+        <property name="styleSheet">
+         <string notr="true">font: 12pt;</string>
+        </property>
+        <property name="text">
+         <string>Загрузить матрицу</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="resultLabel">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt; font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
